@@ -1,0 +1,52 @@
+.container-fluid {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    right: 0vw;
+    bottom: 0.6vw;
+    transition: left 1.0s;
+}
+
+.container {
+    display: inline-block;
+}
+.progress {
+    position: absolute;
+    z-index: -1;
+    height: 0.8vw;
+    width: 8vw;
+}
+#progress-hunger {
+    transform: rotate(270deg);
+    margin-top: -3.9vw;
+    margin-right: 0vw;
+    right: 78.2vw;
+}
+
+#progress-thirst {
+    transform: rotate(270deg);
+    margin-top: -3.9vw;
+    margin-left: -87.0vw;
+
+}
+.field {
+    margin: 0;
+    padding: 0;
+    height: 0.5vw;
+    width: 0.5vw;
+    border-radius: 0.5vw;
+    transition: width 1.0s;
+}
+#hunger {
+    float: left;
+    vertical-align: center;
+    background-color: #ff0000;
+    border: solid;
+}
+#thirst {
+    float: left;
+    vertical-align: center;
+    background-color: #0044ff ;
+    border: solid;
+}
