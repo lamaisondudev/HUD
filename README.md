@@ -1,5 +1,5 @@
 # HUD
-
+/!\ Le esx_status et basicneeds sont a mettre ABSOLUMENT /!\
 Pour l'installer c'est très simple : ensure hud
 Pour changer les couleurs allez dans le css 
 
